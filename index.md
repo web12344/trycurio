@@ -1,13 +1,13 @@
 ---
-title: Jekyll Serif Theme
+title: Curio – Learn to code with Curio.
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Curio is an affordable and future-proof educational platform to engage students in University level courses.
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# Engage students with Curio.
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Curio is an affordable and future-proof educational platform to engage students in University level courses. 
