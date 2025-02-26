@@ -31,6 +31,9 @@ Fill out the form [here](https://forms.office.com/e/SEEz2n2eSN).
 [Current program subject to modification](https://docs.google.com/document/d/19iu2C05iWUsMf_X7Ydq1fcTGqHo8CQBUEQvmkxjEs4Y/edit?usp=sharing).
 
 ---
+![Curio Teleoperation](https://trycurio.com/wp-content/uploads/2023/12/curioTeleoperation.gif)
+![Follow Object](https://trycurio.com/wp-content/uploads/2023/12/followobject.gif)
+![Curio Lead](https://trycurio.com/wp-content/uploads/2023/12/Curio_lead.gif)
 
 ## SICSA Education Workshop
 
