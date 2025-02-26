@@ -3,34 +3,83 @@ layout: default
 bodyClass: "page-projects"
 ---
 
-<div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content }}
-      </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
-      </div>
-      {% endif %}
-    </div>
-  </div>
-</div>
+<div class="container mt-5">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
 
-<div class="container pt-6 pb-6">
-  <div class="row">
-    {% for project in site.projects %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-          </h2>
-          <p>{{ project.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+        <!-- Joystick Controller -->
+        <div class="col-md-4">
+            <h3>Joystick Controller</h3>
+            <p>A simple joystick webpage to control your robot.</p>
+            <img src="https://trycurio.com/wp-content/uploads/2023/12/curioJoystick.gif" class="img-fluid" alt="Joystick Controller">
+            <p><a href="https://talhayranci.com/projects/curio-joystick/">More Info</a> | 
+               <a href="https://curio-joystick.vercel.app/">Try It</a></p>
         </div>
-      </div>
+
+        <!-- Teleoperation -->
+        <div class="col-md-4">
+            <h3>Teleoperation</h3>
+            <p>Control your robot remotely while streaming video.</p>
+            <img src="https://trycurio.com/wp-content/uploads/2023/12/curioTeleoperation.gif" class="img-fluid" alt="Teleoperation">
+            <p><a href="https://talhayranci.com/projects/curio-teleoperation/">More Info</a> | 
+               <a href="https://curio-teleoperation.vercel.app/">Try It</a></p>
+        </div>
+
+        <!-- Line Following -->
+        <div class="col-md-4">
+            <h3>Line Following</h3>
+            <p>The simplest self-driving car, demoed on an older version of Curio.</p>
+            <img src="https://trycurio.com/wp-content/uploads/2023/12/linetracking.gif" class="img-fluid" alt="Line Following">
+            <p><a href="https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#follow-a-black-line">More Info</a></p>
+        </div>
+
+        <!-- Object Following -->
+        <div class="col-md-4">
+            <h3>Object Following</h3>
+            <p>Track a red object around, demoed on an older version of Curio.</p>
+            <img src="https://trycurio.com/wp-content/uploads/2023/12/followobject.gif" class="img-fluid" alt="Object Following">
+            <p><a href="https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#object-tracking">More Info</a></p>
+        </div>
+
+        <!-- Voice Control -->
+        <div class="col-md-4">
+            <h3>Voice Control</h3>
+            <p>Give instructions to Curio by talking to it.</p>
+            <img src="https://trycurio.com/wp-content/uploads/2023/12/speech_control.gif" class="img-fluid" alt="Voice Control">
+            <p><a href="https://youtu.be/bdlzn9TVa_s?si=BjacFdQQ5bbN35PV">Watch Video</a></p>
+        </div>
+
+        <!-- Virtual Lead -->
+        <div class="col-md-4">
+            <h3>Virtual Lead</h3>
+            <p>Move your phone to control Curio.</p>
+            <img src="https://trycurio.com/wp-content/uploads/2023/12/Curio_lead.gif" class="img-fluid" alt="Virtual Lead">
+            <p><a href="https://www.youtube.com/shorts/vm0vGfx4_nk">Watch Video</a></p>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="col-md-4">
+            <h3>Project 7</h3>
+            <p>Description of Project 7 goes here.</p>
+            <img src="IMAGE_URL_HERE" class="img-fluid" alt="Project 7">
+            <p><a href="#">More Info</a></p>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="col-md-4">
+            <h3>Project 8</h3>
+            <p>Description of Project 8 goes here.</p>
+            <img src="IMAGE_URL_HERE" class="img-fluid" alt="Project 8">
+            <p><a href="#">More Info</a></p>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="col-md-4">
+            <h3>Project 9</h3>
+            <p>Description of Project 9 goes here.</p>
+            <img src="IMAGE_URL_HERE" class="img-fluid" alt="Project 9">
+            <p><a href="#">More Info</a></p>
+        </div>
+
     </div>
-    {% endfor %}
-  </div>
 </div>
