@@ -5,83 +5,64 @@ description: Workshop
 bodyClass: page-workshop
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+## Curio Education Workshop
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+Exploring the potential of the Curio robotic platform for applied AI and programming.
 
-# Objectives
+### What is Curio?
+A smartphone-powered robotic platform, see gif below.
 
-Financial accounting and financial reporting are often used as synonyms.
+### What will we do?
+Gain first-hand experience programming Curio and brainstorm curriculum activities.
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+### When?
+Tuesday 30th January 2024 – 9.30am to 2pm
 
-## Relevance
+### Where?
+[University of Glasgow – School of Computing Science](https://maps.app.goo.gl/rWCDCary3sqTxmtH7)
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+### Cost:
+Free with tea/lunch included. Travel fees refunded.
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+### How to apply:
+Fill out the form [here](https://forms.office.com/e/SEEz2n2eSN).
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
-
-## Faithful Representation
-
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
-
-## Enhancing Qualitative Characteristics
-
-### Verifiability
-
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
-
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
+### Program:
+[Current program subject to modification](https://docs.google.com/document/d/19iu2C05iWUsMf_X7Ydq1fcTGqHo8CQBUEQvmkxjEs4Y/edit?usp=sharing).
 
 ---
 
-## Statement of cash flows
+## SICSA Education Workshop
 
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
+We are excited to announce a **SICSA education workshop** on using Curio – a smartphone-powered robotics platform for hands-on artificial intelligence and programming activities in the classroom.
 
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
+The hands-on workshop will be held on **Tuesday January 30th 2024 (9.30am to 2pm)** at the [University of Glasgow – School of Computing Science](https://maps.app.goo.gl/rWCDCary3sqTxmtH7). The workshop is open to computing and robotics educators and PhD students from Scottish universities who are keen to explore this new platform.
 
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
+Participants will get first-hand experience programming Curio and will brainstorm together curriculum activities around the robots. The workshop sessions will be led by [Dr. Jonathan Grizou](http://jgrizou.com), [Dr. Mireilla Bikanga Ada](https://www.gla.ac.uk/schools/computing/staff/mireillabikangaada/), and [Talha Enes Ayranci](https://talhayranci.com/) of the University of Glasgow.
 
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
+The Curio platform offers an affordable way to teach coding, AI, and robotics. Students can program the robot directly via a webpage with access to all sensors. Students can learn to turn the robot into a self-driving car via computer vision or learn principles of user interface by designing and testing tactile controllers for Curio.
 
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
+**Registration is limited to 20 participants** in order to provide the best hands-on experience. Attendance is free with tea and lunch provided. Travel cost will be reimbursed.
 
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
+Find the detailed activities for the workshop [here](https://docs.google.com/document/d/19iu2C05iWUsMf_X7Ydq1fcTGqHo8CQBUEQvmkxjEs4Y/edit?usp=sharing).
 
-## Statement of financial position (balance sheet)
+**Register your interest at:**  
+[https://forms.office.com/e/SEEz2n2eSN](https://forms.office.com/e/SEEz2n2eSN)
 
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
+For any questions, please email the organisers at [jonathan.grizou@glasgow.ac.uk](mailto:jonathan.grizou@glasgow.ac.uk).
 
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
+We look forward to welcoming fellow computing educators to Glasgow for a day of creative thinking on teaching computing topics through Curio’s applied robotics approach!
 
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+---
+
+## Sponsors
+
+### SICSA
+Thanks to [SICSA (Scottish Informatics and Computer Science Alliance)](https://www.sicsa.ac.uk) for sponsoring this workshop and helping us disseminate the event to their network.
+
+![SICSA Logo](https://trycurio.com/wp-content/uploads/2023/12/SICSA-300x145.png)
+
+### Curio Project
+Thanks to the Curio project for providing the robots necessary for participants at the workshop.
+
+![Curio Logo](https://trycurio.com/wp-content/uploads/2023/12/cuiro_text-150x150.png)
