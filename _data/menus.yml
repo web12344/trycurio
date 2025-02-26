@@ -9,10 +9,10 @@ main:
     url: "/workshop/"
     weight: 4
   - name: "Testimonials"
-    url: "/contact/"
+    url: "/testimonials/"
     weight: 5
   - name: "Buy"
-    url: "/contact/"
+    url: "/buy/"
     weight: 6
   - name: "Contact"
     url: "/contact/"
