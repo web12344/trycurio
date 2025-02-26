@@ -6,7 +6,7 @@ main:
     url: "/projects/"
     weight: 3
   - name: "Workshop"
-    url: "/about/"
+    url: "/workshop/"
     weight: 4
   - name: "Testimonials"
     url: "/contact/"
