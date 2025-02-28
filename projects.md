@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: services
+layout: projects
 description: Projects
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
