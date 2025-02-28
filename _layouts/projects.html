@@ -2,83 +2,126 @@
 layout: default
 bodyClass: "page-projects"
 ---
+<style>
+    .fixed-image {
+        height: 400px;
+        object-fit: cover; /* Ensures the image fills the height while keeping aspect ratio */
+        width: 100%; /* Ensures it fits the card width */
+    }
+</style>
 
 <div class="container mt-5">
-    <h2 class="text-center">Projects</h2>
-    <div class="row">
-
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row g-4">
+        
         <!-- Joystick Controller -->
         <div class="col-md-4">
-            <h3>Joystick Controller</h3>
-            <p>A simple joystick webpage to control your robot.</p>
-            <img src="https://trycurio.com/wp-content/uploads/2023/12/curioJoystick.gif" class="img-fluid" alt="Joystick Controller">
-            <p><a href="https://talhayranci.com/projects/curio-joystick/">More Info</a> | 
-               <a href="https://curio-joystick.vercel.app/">Try It</a></p>
+            <div class="card">
+                <img src="https://trycurio.com/wp-content/uploads/2023/12/curioJoystick.gif" class="card-img-top fixed-image" alt="Joystick Controller">
+                <div class="card-body">
+                    <h3 class="card-title">Joystick Controller</h3>
+                    <p class="card-text">A simple joystick webpage to control your robot.</p>
+                    <a href="https://talhayranci.com/projects/curio-joystick/" class="btn btn-primary btn-sm">More Info</a>
+                    <a href="https://curio-joystick.vercel.app/" class="btn btn-success btn-sm">Try It</a>
+                </div>
+            </div>
         </div>
 
         <!-- Teleoperation -->
         <div class="col-md-4">
-            <h3>Teleoperation</h3>
-            <p>Control your robot remotely while streaming video.</p>
-            <img src="https://trycurio.com/wp-content/uploads/2023/12/curioTeleoperation.gif" class="img-fluid" alt="Teleoperation">
-            <p><a href="https://talhayranci.com/projects/curio-teleoperation/">More Info</a> | 
-               <a href="https://curio-teleoperation.vercel.app/">Try It</a></p>
+            <div class="card">
+                <img src="https://trycurio.com/wp-content/uploads/2023/12/curioTeleoperation.gif" class="card-img-top fixed-image" alt="Teleoperation">
+                <div class="card-body">
+                    <h3 class="card-title">Teleoperation</h3>
+                    <p class="card-text">Control your robot remotely while streaming video.</p>
+                    <a href="https://talhayranci.com/projects/curio-teleoperation/" class="btn btn-primary btn-sm">More Info</a>
+                    <a href="https://curio-teleoperation.vercel.app/" class="btn btn-success btn-sm">Try It</a>
+                </div>
+            </div>
         </div>
 
         <!-- Line Following -->
         <div class="col-md-4">
-            <h3>Line Following</h3>
-            <p>The simplest self-driving car, demoed on an older version of Curio.</p>
-            <img src="https://trycurio.com/wp-content/uploads/2023/12/linetracking.gif" class="img-fluid" alt="Line Following">
-            <p><a href="https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#follow-a-black-line">More Info</a></p>
+            <div class="card">
+                <img src="https://trycurio.com/wp-content/uploads/2023/12/linetracking.gif" class="card-img-top fixed-image" alt="Line Following">
+                <div class="card-body">
+                    <h3 class="card-title">Line Following</h3>
+                    <p class="card-text">The simplest self-driving car, demoed on an older version of Curio.</p>
+                    <a href="https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#follow-a-black-line" class="btn btn-primary btn-sm">More Info</a>
+                </div>
+            </div>
         </div>
 
         <!-- Object Following -->
         <div class="col-md-4">
-            <h3>Object Following</h3>
-            <p>Track a red object around, demoed on an older version of Curio.</p>
-            <img src="https://trycurio.com/wp-content/uploads/2023/12/followobject.gif" class="img-fluid" alt="Object Following">
-            <p><a href="https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#object-tracking">More Info</a></p>
+            <div class="card">
+                <img src="https://trycurio.com/wp-content/uploads/2023/12/followobject.gif" class="card-img-top fixed-image" alt="Object Following">
+                <div class="card-body">
+                    <h3 class="card-title">Object Following</h3>
+                    <p class="card-text">Track a red object around, demoed on an older version of Curio.</p>
+                    <a href="https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#object-tracking" class="btn btn-primary btn-sm">More Info</a>
+                </div>
+            </div>
         </div>
 
         <!-- Voice Control -->
         <div class="col-md-4">
-            <h3>Voice Control</h3>
-            <p>Give instructions to Curio by talking to it.</p>
-            <img src="https://trycurio.com/wp-content/uploads/2023/12/speech_control.gif" class="img-fluid" alt="Voice Control">
-            <p><a href="https://youtu.be/bdlzn9TVa_s?si=BjacFdQQ5bbN35PV">Watch Video</a></p>
+            <div class="card">
+                <img src="https://trycurio.com/wp-content/uploads/2023/12/speech_control.gif" class="card-img-top fixed-image" alt="Voice Control">
+                <div class="card-body">
+                    <h3 class="card-title">Voice Control</h3>
+                    <p class="card-text">Give instructions to Curio by talking to it.</p>
+                    <a href="https://youtu.be/bdlzn9TVa_s?si=BjacFdQQ5bbN35PV" class="btn btn-primary btn-sm">Watch Video</a>
+                </div>
+            </div>
         </div>
 
         <!-- Virtual Lead -->
         <div class="col-md-4">
-            <h3>Virtual Lead</h3>
-            <p>Move your phone to control Curio.</p>
-            <img src="https://trycurio.com/wp-content/uploads/2023/12/Curio_lead.gif" class="img-fluid" alt="Virtual Lead">
-            <p><a href="https://www.youtube.com/shorts/vm0vGfx4_nk">Watch Video</a></p>
+            <div class="card">
+                <img src="https://trycurio.com/wp-content/uploads/2023/12/Curio_lead.gif" class="card-img-top fixed-image" alt="Virtual Lead">
+                <div class="card-body">
+                    <h3 class="card-title">Virtual Lead</h3>
+                    <p class="card-text">Move your phone to control Curio.</p>
+                    <a href="https://www.youtube.com/shorts/vm0vGfx4_nk" class="btn btn-primary btn-sm">Watch Video</a>
+                </div>
+            </div>
         </div>
 
         <!-- Project 7 -->
         <div class="col-md-4">
-            <h3>Project 7</h3>
-            <p>Description of Project 7 goes here.</p>
-            <img src="IMAGE_URL_HERE" class="img-fluid" alt="Project 7">
-            <p><a href="#">More Info</a></p>
+            <div class="card">
+                <img src="IMAGE_URL_HERE" class="card-img-top fixed-image" alt="Project 7">
+                <div class="card-body">
+                    <h3 class="card-title">Project 7</h3>
+                    <p class="card-text">Description of Project 7 goes here.</p>
+                    <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                </div>
+            </div>
         </div>
 
         <!-- Project 8 -->
         <div class="col-md-4">
-            <h3>Project 8</h3>
-            <p>Description of Project 8 goes here.</p>
-            <img src="IMAGE_URL_HERE" class="img-fluid" alt="Project 8">
-            <p><a href="#">More Info</a></p>
+            <div class="card">
+                <img src="IMAGE_URL_HERE" class="card-img-top fixed-image" alt="Project 8">
+                <div class="card-body">
+                    <h3 class="card-title">Project 8</h3>
+                    <p class="card-text">Description of Project 8 goes here.</p>
+                    <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                </div>
+            </div>
         </div>
 
         <!-- Project 9 -->
         <div class="col-md-4">
-            <h3>Project 9</h3>
-            <p>Description of Project 9 goes here.</p>
-            <img src="IMAGE_URL_HERE" class="img-fluid" alt="Project 9">
-            <p><a href="#">More Info</a></p>
+            <div class="card">
+                <img src="IMAGE_URL_HERE" class="card-img-top fixed-image" alt="Project 9">
+                <div class="card-body">
+                    <h3 class="card-title">Project 9</h3>
+                    <p class="card-text">Description of Project 9 goes here.</p>
+                    <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                </div>
+            </div>
         </div>
 
     </div>
